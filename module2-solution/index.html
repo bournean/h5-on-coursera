@@ -4,86 +4,15 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Assignment solution for Module 2</title>
-
-<style>
-  /********* base style *********/
-  * {
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0px;
-    padding: 0px;
-    overflow: hidden;
-  }
-
-  /* body { */
-    /* font-size: 120%; */
-    /* position: relative; */
-  /* } */
-
-  h1 {
-    margin: 60px;
-    text-align: center;
-  }
-
-  p.content {
-    color: black;
-    margin: 10px;
-    /* margin: 60px 10px 10px 10px; */
-    position: relative;
-    clear: both;
-  }
-  div#container {
-    /* background-color:blue; */
-    position: relative;
-  }
-
-  .div-decorator {
-    border: 1px black solid;
-    margin: 10px;
-    background-color: lightgrey;
-    position: relative;
-    overflow: hidden;
-  }
-
-  .menuTitle {
-    position: relative;
-    width: 150px;
-    right: -1px;
-    top: -1px;
-    float: right;
-    font-size: 1.2em;
-
-    text-align: center;
-    border: 1px black solid;
-  }
-  .title1 {
-    background-color: pink;
-  }
-
-  .title2 {
-    background-color:orangered;
-  }
-
-  .title3 {
-    background-color:burlywood;
-  }
-
-  .row {
-    width : 100%;
-  }
-  
-
-
-</style>
-    <link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
   <h1>Our Menu</h1> 
   <div id="container">
     <div class="row">
       <div class="col-lg-4 col-md-6 col-sm-12"><div class="div-decorator"><p class="menuTitle title1">chicken</p><p class="content">Your site is very simple. It consists of a page heading and 3 sections (all in one row in the desktop view). Each section contains some text. You can make it dummy text/"lorem ipsum", it doesn't matter. How the sections are laid out on the screen depends on the width of the browser window. (Hint: use media queries discussed in Lecture 23.)</p></div></div>
-      <div class="col-lg-4 col-md-6 col-sm-12"><div class="div-decorator"><p class="menuTitle title2">beef</p><p class="content">Layout: In the desktop view (992px and above), each of the 3 sections should take up equal amount of space on the screen. As you make the browser window wider or narrower, each section should become wider or narrower. (Hint: use percentages to define width and use the 'float' property. See Lecture 24). For a visual reference of this view, see the desktop mockup illustration below.</p></div></div>
-      <div class="col-lg-4 col-md-6 col-sm-12"><div class="div-decorator"><p class="menuTitle title3">sushi</p><p class="content">Layout: In the tablet view (between 768px and 991px, inclusively), the first 2 sections should be in the first row and be of equal size. The 3rd section should be in the second row and take up the entire row by itself. For a visual reference of this view, see the tablet mockup illustration below.</p></div></div>
+      <div class="col-lg-4 col-md-6 col-sm-12"><div class="div-decorator"><p class="menuTitle title2">beef</p><p class="content">Layout: In the desktop view (992px and above), each of the 3 sections should take up equal amount of space on the screen. As you make the browser window wider or narrower, each section should become wider or narrower. (Hint: use percentages to define width and use the 'float' property. See Lecture 24). For a visual reference of this view.</p></div></div>
+      <div class="col-lg-4 col-md-12 col-sm-12"><div class="div-decorator"><p class="menuTitle title3">sushi</p><p class="content">Layout: In the tablet view (between 768px and 991px, inclusively), the first 2 sections should be in the first row and be of equal size. The 3rd section should be in the second row and take up the entire row by itself. For a visual reference of this view, see the tablet mockup illustration below.</p></div></div>
     </div>
   </div>
 </body>

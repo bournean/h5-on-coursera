@@ -1,0 +1,136 @@
+/* nav style */
+
+#navbarbody {
+  background-color: gray;
+}
+/** HEADER **/
+#header-nav {
+  background-color:yellowgreen;
+  border-radius: 0;
+  border: 0px;
+}
+.navbar-brand {
+  padding-top: 25px;
+}
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Lora', serif;
+  color: #557c3e;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+#nav-list {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  /* background-color: #3F0C1F; */
+}
+#nav-list a {
+  color:darkolivegreen;
+  text-align: center;
+  font-size: 1.8em;
+}
+#nav-list a:hover {
+  background: rgb(195, 204, 195);
+}
+li.with-bottom-line {
+  border-bottom-color: bisque;
+  border-bottom-width: thin;
+  border-bottom-style: dotted;
+}
+#collapsable-nav a { /* Collapsed nav menu text */
+  font-size: 1.2em;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid rgb(81, 136, 102);
+}
+
+
+/* END HEADER */
+
+
+
+
+/********* base style *********/
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+/* body { */
+  /* font-size: 120%; */
+  /* position: relative; */
+/* } */
+
+h1.menuheader {
+  margin: 30px;
+  text-align: center;
+}
+
+p.content {
+  color: black;
+  margin: 10px;
+  /* margin: 20px 10px 10px 10px; */
+  position: relative;
+  clear: both;
+}
+div#container {
+  /* background-color:blue; */
+  position: relative;
+  margin: 10px;
+
+  box-sizing: border-box;
+}
+
+div#menuItem {
+  padding: 0;
+}
+
+.div-decorator {
+  border: 1px black solid;
+  margin: 10px;
+  background-color: lightgrey;
+  position: relative;
+}
+#menuItem h3 {
+  text-align: center;
+}
+
+.menuItemTitle {
+  position: relative;
+  width: 150px;
+  right: -1px;
+  top: -1px;
+  float: right;
+  font-size: 1.2em;
+  padding: 5px;
+  margin-bottom: 10px;
+
+  text-align: center;
+  border: 1px black solid;
+}
+.itemTitle1 {
+  background-color: pink;
+}
+
+.itemTitle2 {
+  background-color:orangered;
+}
+
+.itemTitle3 {
+  background-color:burlywood;
+}
+/* .nopadding {
+  padding: 0px;
+} */
+div#rowNoMargin {
+  margin: 0px;
+}
